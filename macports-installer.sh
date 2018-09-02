@@ -1,4 +1,7 @@
 #!/usr/bin/env bash
+# Install Xcode
+sudo xcode-select --install
+sudo xcodebuild -license
 #
 urisvn=https://svn.macports.org/repository/macports/trunk/www/includes/common.inc
 uridist=https://distfiles.macports.org/MacPorts
