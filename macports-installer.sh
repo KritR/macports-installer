@@ -70,7 +70,7 @@ fi
 rm ./$mppkg.pkg
 rm ./$mpchk.chk.txt
 #
-if ! grep -F 'export PATH="/opt/local/bin:/opt/local/sbin:$PATH"' .bash_profile;
-    then echo 'export PATH="/opt/local/bin:/opt/local/sbin:$PATH"' >> .bash_profile;
+if ! grep -F 'export PATH="/opt/local/bin:/opt/local/sbin:$PATH"' $HOME/.profile;
+    then echo 'export PATH="/opt/local/bin:/opt/local/sbin:$PATH"' >> $HOME/.profile;
 fi
 #
